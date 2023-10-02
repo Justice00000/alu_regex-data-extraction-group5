@@ -4,7 +4,7 @@
   
 Extract different data types from API responses using regular expressions based on the following patterns:  
   
-• Restaurant names and cuisines follow "Name - Cuisine" where both are arbitrary strings.  
+• Restaurant names and cuisines follow "Name - Cuisine" where both are arbitrary strings.<br>
 • Ingredient lists are comma-separated like "ingredient1, ingredient2, ingredient3".  
 • RGB colors are strings like "rgb(255, 255, 255)" with 3 numeric values.  
 • Social media usernames are in the format "@username" where username can be letters and numbers.  
