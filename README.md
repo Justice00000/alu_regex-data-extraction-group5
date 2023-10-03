@@ -1,8 +1,5 @@
 # Regex - Onboarding Hackathon Group 5
 
-
-![alu hackathon](https://github.com/Justice00000/alu_regex-data-extraction-group5/assets/133651805/2526ad6e-486f-4084-8464-b45d0267def1)
-
 ## Tasks:  
   
 Extract different data types from API responses using regular expressions based on the following patterns:  
@@ -16,4 +13,4 @@ Extract different data types from API responses using regular expressions based 
 • Event dates/times follow the pattern "MMM DD, YYYY - hh:mm AM/PM" with standard date and 12-hour time formatting.  
 • Email addresses follow the common format "name@domain.com" 
 
-![README file](https://github.com/Justice00000/alu_regex-data-extraction-group5/raw/main/asset/alu-hackathon.jpeg)
+![alu hackathon](https://github.com/Justice00000/alu_regex-data-extraction-group5/assets/133651805/2526ad6e-486f-4084-8464-b45d0267def1)
