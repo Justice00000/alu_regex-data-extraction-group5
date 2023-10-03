@@ -15,4 +15,4 @@ ingredients_matches = re.findall(ingredients_pattern, text)
 print("\nExtracted Ingredient Lists:")
 for ingredients in ingredients_matches:
     ingredients_list = [ingredient.strip() for ingredient in ingredients.split(',')]
-    print("Ingredients:", text)
+    print("Ingredients:", ingredient_list)
