@@ -1,18 +1,10 @@
 import re
 
-# Sample text containing restaurant names and cuisines
-text = """
-- Restaurant: "Pizza Hut - Italian"
-- Restaurant: "McDonald's - Fast Food"
-"""
+raw_data = "Sample data with restaurant names: 'Pizza Hut - Italian', 'McDonald's - Fast Food'"
 
-# Define regular expressions for restaurant names and cuisine
-restaurant_pattern = r'"Restaurant: "(.*?) - (.*?)"'
+restaurant_pattern = r"'(.*?) - (.*?)'"
+restaurant_matches = re.findall(restaurant_pattern, raw_data)
 
-# Find all matches for restaurant names and cuisines
-restaurant_matches = re.findall(restaurant_pattern, text)
-
-# Print the extracted data
-print("Extracted Restaurant Data:")
-for name, cuisine in restaurant_matches:
-    print(f"Name: {name}, Cuisine: {cuisine}")
+for match in restaurant_matches:
+    restaurant_name, cuisine_type = match
+    print(f"Restaurant Name: {restaurant_name}, Cuisine Type: {cuisine_type}")
