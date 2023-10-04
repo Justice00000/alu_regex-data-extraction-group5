@@ -3,7 +3,7 @@ import re
 # Sample text containing email addresses
 text = """
 Email addresses:
-- j.chukwuony@example.com
+- johndoe@example.com
 - alice.smith@email.co.uk
 - support@company.org
 """
